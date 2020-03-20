@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-
+import { Logo } from './components/Logo';
 function App() {
   return (
     <div>
-      <header>
-        <logo />
-        <nav style={{ background: 'red' }}>
-          <h1>Departments</h1>
+      <header >
+        <Logo />
+        <nav>
+          <ul>
+            <li style={{ color: 'rgb(237, 20, 29)' }}>Departments</li>
+            <li style={{ color: 'rgb(237, 20, 29)' }}>My cart</li>
+          </ul>
         </nav>
       </header>
 
