@@ -3,7 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <header>
+        <logo />
+        <nav style={{ background: 'red' }}>
+          <h1>Departments</h1>
+        </nav>
+      </header>
 
     </div>
   );
